@@ -1,0 +1,33 @@
+# =============================================================================
+# BLOQUEIO DE SEGURANÇA - DADOS SENSÍVEIS E TITULARIDADE DE CLIENTES
+# =============================================================================
+
+# Planilhas de Custódia e Campanhas (Local/OneDrive apenas)
+*.xlsx
+*.xls
+*.csv
+temp_base.xlsx
+
+# Banco de Dados SQLite (Histórico de CRM Local)
+*.db
+*.sqlite
+*.sqlite3
+crm_pipeline.db
+crm_database.db
+
+# Cache de Execução do Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Ambientes Virtuais e Configurações de IDE
+venv/
+.venv/
+env/
+.vscode/
+.idea/
+
+# Arquivos de Sistema
+.DS_Store
+Thumbs.db
